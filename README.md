@@ -1,3 +1,40 @@
+# What is this?  
+This is a demo showing how to make a web component and how to use it in your regular HTML file
+
+## Steps 
+
+
+
+### 1 Write regular [svelte](https://svelte.dev) like you usually do.
+
+then add this line at the top of your `svelte` file
+
+```
+<svelte:options tag="cool-button" />
+
+```
+
+The main differences are in the `main.js` file and the `rollup.config.js`
+
+
+### 2 Edit `rollup.config.js`
+
+add 
+
+```
+customElement: true,
+
+```
+
+to your `compilerOptions`
+
+### 3 In your `main.js` file:  
+
+Delete everything but the import part.
+
+
+### 4 Done 👍
+
 *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
