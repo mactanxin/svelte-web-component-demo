@@ -3,7 +3,7 @@ This is a demo showing how to make a web component and how to use it in your reg
 
 ## Steps 
 
-
+*Note that you will need to have [Node.js](https://nodejs.org) installed.*
 
 ### 1 Write regular [svelte](https://svelte.dev) like you usually do.
 
@@ -32,25 +32,13 @@ to your `compilerOptions`
 
 Delete everything but the import part.
 
+### 4 How to use it?  
 
-### 4 Done 👍
+after running `npm run build`, go to `public/build` folder, copy or import the bundle.js, or rename it to anything you like.
 
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
----
+### 5 Done 👍
 
-# svelte app
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
 
 
 ## Get started
